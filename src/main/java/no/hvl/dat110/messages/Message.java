@@ -15,7 +15,9 @@ public abstract class Message {
 		this.user = user;
 	}
 
-	public MessageType getType() { return this.type; }
+	public MessageType getType() { 
+		return this.type; 
+		}
 
 	
 	public String getUser() {
